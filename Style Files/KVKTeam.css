@@ -1,0 +1,96 @@
+.staff{
+  margin: 20px;
+  
+}
+.staff-drp{
+  display: flex;
+  justify-content: space-evenly;
+  color: whitesmoke;
+}
+.staff-drp li{
+  list-style: none;
+ 
+}
+.staff-drp li a{
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+}
+  
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+  }
+  .main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-content: center;
+    justify-content: center;
+  }
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+    cursor: pointer;
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: white;
+    color: blaack;
+    transform: rotateY(180deg);
+  }
+  .footer {
+    background-color: #000000;
+    padding: 10px;
+    color: white;
+    display: flex;
+    padding: 25px;
+  }
+  .footer li {
+    list-style: none;
+    padding: 5px;
+    text-align: left;
+  }
+  .footer > ul {
+    padding: 20px;
+  }
+  .cont {
+    font-weight: 800;
+    border-bottom: 1px solid white;
+    width: 200px;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+  }
+  .lastsec {
+    text-align: center;
+    background-color: F6F1F1;
+    padding: 10px;
+  }
+  .footer > ul > li:hover {
+    cursor: pointer;
+    color: rgb(193, 194, 196);
+  }

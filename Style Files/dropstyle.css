@@ -1,0 +1,22 @@
+.drop-info{
+    padding: 15px;
+}
+.img-div{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+img{
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    object-fit: cover;
+    width: 50%; 
+}
+.man{
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    object-fit: contain;
+    width: 50%;
+}

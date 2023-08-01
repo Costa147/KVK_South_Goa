@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/Style Files/register.css" />
+  <link rel="icon" type="image/x-icon" href="/Images/Title-icon.png">
+  <title>KVK | Registration</title>
+</head>
+
+<body>
+  <nav class="navbar">
+    <!-- LOGO -->
+    <!--<div class="logo">KVK South-Goa</div>-->
+
+    <!-- NAVIGATION MENU -->
+    <ul class="nav-links">
+
+      <!-- USING CHECKBOX HACK -->
+      <input type="checkbox" id="checkbox_toggle" />
+      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+      <!-- NAVIGATION MENUS -->
+      <div class="menu">
+
+        <li><a href="/HTML Files/index.html">Home</a></li>
+
+        <li class="services">
+          <a href="#" class="hovr">About Us <i class="fa fa-caret-down"></i></a>
+
+          <!-- DROPDOWN MENU -->
+          <ul class="dropdown">
+            <li><a href="/HTML Files/profile.html">Profile </a></li>
+            <li><a href="/HTML Files/KVKteam.html">KVK Team</a></li>
+            <li><a href="/HTML Files/mandates.html">Mandate</a></li>
+            <li><a href="/HTML Files/reports.html">Reports</a></li>
+            <li><a href="/HTML Files/success.html">Success Stories</a></li>
+          </ul>
+
+        </li>
+        <li class="services">
+          <a href="/">Activities of KVK  <i class="fa fa-caret-down"></i></a>
+
+          <!-- DROPDOWN MENU -->
+          <ul class="dropdown">
+            <li><a href="/">On Farm Testings</a></li>
+            <li><a href="/">Frontline Demonstrations</a></li>
+
+            <li class="services0">
+              <a href="/">Trainings  <i class="fa fa-caret-down"></i></a>
+    
+              <!-- DROPDOWN MENU -->
+              <ul class="dropdown0 cc">
+                <li><a href="/">Present Trainings</a></li>
+                <li><a href="/">Archive 2022</a></li>
+              </ul>
+            </li>
+
+            <li class="services0">
+              <a href="/">Extension Activities  <i class="fa fa-caret-down"></i></a>
+              <ul class="dropdown0 cc">
+                <li><a href="/">Present Activities</a></li>
+                <li><a href="/">Archive 2022</a></li>
+              </ul>
+            </li>
+  
+            <li class="services0"><a href="/">Weather Based Agroment Advisories  <i class="fa fa-caret-down"></i></a>
+              <ul class="dropdown0 cc">
+                <li><a href="/">English</a></li>
+                <li><a href="/">Konkani</a></li>
+              </ul>
+            </li>
+          </li>
+          </ul>
+        </li>
+        <li class="services0">
+          <a href="/">Package of Practice  <i class="fa fa-caret-down"></i></a>
+
+          <!-- DROPDOWN MENU -->
+          <ul class="dropdownPackage">
+            <li><a href="/">Mango Cultivation</a></li>
+            <li><a href="/">Turmeric Cultivation</a></li>
+            <li><a href="/">Chilli Cultivation</a></li>
+            <li><a href="/">Fodder Cultivation</a></li>
+            <li><a href="/">Cowpea Cultivation</a></li>
+            <li><a href="/">Oyster Mushroom Cultivation</a></li>
+            <li><a href="/">Honey Bee</a></li>
+            <li><a href="/">Wilt management in Blackpepper</a></li>
+            <li><a href="/">Trichoderma in Plant Diseas Management</a></li>
+            <li><a href="/">Azolla Cultivation</a></li>
+            <li><a href="/">Hydroponics Cultivation</a></li>
+          </ul>
+        </li>
+
+        <li class="services">
+          <a href="/">Publications  <i class="fa fa-caret-down"></i></a>
+
+          <!-- DROPDOWN MENU -->
+          <ul class="dropdown">
+            <li><a href="/">All Publications</a></li>
+            <li><a href="/">Extension Folder</a></li>
+            <li class="services0"><a href="/">Video Gallery  <i class="fa fa-caret-down"></i></a>
+              <ul class="dropdown0 cc">
+                <li><a href="/">Feedback</a></li>
+                <li><a href="/">Success Stories</a></li>
+                <li><a href="/">Others</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+
+        <li><a href="/">Upcoming Events</a></li>
+        <li><a href="/">KVK Digital Library</a></li>
+
+        <li class="services">
+          <a href="/">Vigilance Awareness  <i class="fa fa-caret-down"></i></a>
+          <!-- DROPDOWN MENU -->
+          <ul class="dropdown">
+            <li><a href="/">English Pamplet</a></li>
+            <li><a href="/">Hindi Pamplet</a></li>
+          </ul>
+        </li>
+      </div>
+    </ul>
+  </nav>
+  <hr>
+  <div class="register">
+    <h1 class="form-title">Registration Form</h1>
+    <form action="#" id="registerform">
+      <div class="register-form">
+        <div class="forele">
+          <label>First Name:
+            <input type="text" placeholder="First Name" id="first_name" value="">
+          </label>
+        </div>
+        <div class="forele">
+          <label>Last Name:
+            <input type="text" placeholder="Last Name" id="last_name">
+          </label>
+        </div>
+        <div class="forele">
+          <label class="label">Address:
+            <input type="text" placeholder="Your Name" id="address0">
+          </label>
+        </div>
+        <div class="forele">
+          <label>Contact:
+            <input type="text" placeholder="Phone no." id="contact0">
+          </label>
+        </div>
+        <center><button class="submit-btn" type"submit" onclick="submitform()">Register</button></center>
+      </div>
+    </form>
+  </div>
+
+  <div class="answer"></div>
+
+
+  <footer>
+    <div class="footer">
+      <ul>
+        <p class="cont">Contact Details</p>
+        <li><a href=""></a>ICAR - Krishi Vigyan Kendra, South Goa</li>
+        <li><a href=""></a>ICAR - Central Costal Agriculture Research, Goa</li>
+        <li><a href="mailto: pckvksouthgoa@gmail.com" ></a>Email: pckvksouthgoa@gmail.com</li>
+        <li>Contact No. 0832 2957411</li>
+      </ul>
+      <ul>
+        <p class="cont">Weather Based Agroment Advisories(English & Konkani)</p>
+        <li>Weather Based Agroment Advisories Konkani</li>
+        <li>Weather Based Agroment Advisories English</li>
+        <li>Email: pckvksouthgoa@gmail.com</li>
+        <li>Contact No. 0832 299777</li>
+      </ul>
+      <ul>
+        <p class="cont">Policies</p>
+        <li>Feedback</li>
+        <li>Disclaimer</li>
+        <li>Terms and Conditions</li>
+        <li>Privacy</li>
+        <li>Hyperlinking Policy</li>
+        <li>Copyright Policy</li>
+      </ul>
+      <ul>
+        <p class="cont">Important Links</p>
+        <li>ICAR, New Delhi</li>
+        <li>ICAR - CCARI, Old Goa</li>
+        <li>ICAR - ATARI, Pune</li>
+        <li>National Institute of Oceanography</li>
+        <li>Goa University</li>
+        <li>Government of Goa</li>
+        <li>NABARD</li>
+      </ul>
+    </div>
+  </footer>
+  <script src="register.js"></script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+
+.nav {
+    background-color: #ade792;
+    padding: 15px;
+    width: 100vw;
+    position: relative;
+    z-index: 999;
+  }
+  .navList {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .navItems {
+    color: #000000;
+    text-decoration: none;
+  }
+  .navItems:hover {
+    color: rgb(241, 131, 131);
+    cursor: pointer;
+  }
+  .navList li {
+    list-style: none;
+    position: relative;
+  }
+  li > a:hover {
+    color: rgb(241, 131, 131);
+  }
+  a {
+    text-decoration: none;
+    color: #000000;
+  }
+  .nav .navList ul li {
+    position: relative;
+    border-bottom: 1px dotted #000000;
+  }
+  /*Styling for Main Dropdown Menu*/
+  .dropdown_menu {
+    display: none;
+  }
+  .nav ul li:hover .dropdown_menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: whitesmoke;
+    border: 1px solid #000000;
+    border-radius: 5px;
+  }
+  .dropdown_menu ul {
+    display: block;
+    padding: 10px;
+  }
+  .dropdown_menu ul li {
+    width: 100px;
+    padding: 5px;
+  }
+  /*Styling for Sub Dropdown Menu*/
+  .dropdown_menu-1 {
+    display: none;
+  }
+  .dropdown_menu ul li:hover .dropdown_menu-1 {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 100px;
+    background-color: whitesmoke;
+    border: 1px solid #000000;
+    border-radius: 5px;
+  }
+  /*Styling for (Package of Practices)*/
+  .dropdown_menu0 {
+    display: none;
+  }
+  .nav ul li:hover .dropdown_menu0 {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: whitesmoke;
+    border: 1px solid #000000;
+    border-radius: 5px;
+  }
+  .dropdown_menu0:hover {
+    color: rgb(241, 131, 131);
+  }
+  .dropdown_menu0 ul {
+    display: block;
+    padding: 10px;
+  }
+  .dropdown_menu0 ul li {
+    width: 250px;
+    padding: 5px;
+  }
+
+.footer {
+    background-color: #000000;
+    padding: 10px;
+    color: white;
+    display: flex;
+    padding: 25px;
+  }
+  .footer li {
+    list-style: none;
+    padding: 5px;
+    text-align: left;
+  }
+  .footer > ul {
+    padding: 20px;
+  }
+  .cont {
+    font-weight: 800;
+    border-bottom: 1px solid white;
+    width: 200px;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+  }
+  .lastsec {
+    text-align: center;
+    background-color: F6F1F1;
+    padding: 10px;
+  }
+  .footer > ul > li:hover {
+    cursor: pointer;
+    color: rgb(193, 194, 196);
+  }
